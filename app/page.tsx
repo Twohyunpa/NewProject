@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowUpRightIcon, TriangleIcon } from "lucide-react";
+import { RiArrowRightUpLine, RiTriangleFill } from "@remixicon/react";
 
 import { buttonVariants } from "@/components/ui/button";
 
@@ -48,7 +48,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <TriangleIcon data-icon="inline-start" />
+            <RiTriangleFill data-icon="inline-start" />
             Deploy Now
           </a>
           <a
@@ -58,7 +58,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             Documentation
-            <ArrowUpRightIcon data-icon="inline-end" />
+            <RiArrowRightUpLine data-icon="inline-end" />
           </a>
         </div>
       </div>
